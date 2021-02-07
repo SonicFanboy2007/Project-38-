@@ -76,6 +76,9 @@ function draw() {
       player.velocityY = -12;
     }
     player.velocityY = player.velocityY + 0.8;
+    camera.position.x = player.x 
+    camera.position.y = player.y
+    
   
     player.collide(ground);
     spawnFood();
